@@ -1,0 +1,51 @@
+body{
+    background-color: #ffffff;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding: 3px 300px;  
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    /* margin: 100px; */
+    gap: 50px; 
+}
+
+
+
+.cards .card{
+    width: 360px;
+    height: 542px;
+    text-align: center;
+    padding: 30px;
+    background: #080303;
+}
+
+.cards .card img{
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+}
+
+.cards .card h3{
+    color: rgb(0, 0, 0);
+}
+
+.cards .card button{
+    border: 3px solid #00000000;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 10px 20px;
+    /* background: #ff0000; */
+    border-radius: 5%;
+}

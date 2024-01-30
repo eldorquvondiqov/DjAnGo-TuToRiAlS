@@ -1,0 +1,35 @@
+{% extends "base.html" %} 
+
+{% load static %}
+
+{% block home %}
+
+<h1>Burger Menu</h1>
+<h2>You're gonna need two hands to hold our toasted buns. Our fresh, juicy burgers are served up medium-well with a side of fries and a whole lot of flavor.</h2>
+
+<div class="cards">
+  <div class="card">
+    <img src="{% static 'img/ice-cream.jpg' %}" alt="Burger" />
+
+    <h3>Burger</h3>
+
+
+    <button>add to cart</button>
+  </div>
+
+  <div class="card">
+    <img src="{% static 'img/ice-cream.jpg' %}" alt="Burger" />
+    <h3>Burger</h3>
+
+    <button>add to cart</button>
+  </div>
+
+  <div class="card">
+    <img src="{% static 'img/ice-cream.jpg' %}" alt="Burger" />
+
+    <h3>Burger</h3>
+    <button>add to cart</button>
+  </div>
+</div>
+
+{% endblock home %}
